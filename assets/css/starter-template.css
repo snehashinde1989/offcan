@@ -1,0 +1,377 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,500italic,400italic,500);
+@import url('../css/glyphicons-fontello.css');
+
+html,body {height:100%;color:#606060;font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;}
+h1,h2,h3,h4{font-family:'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;text-transform:uppercase;}
+.newslanding .table img, .doctorlanding .doctor-panel img{background-color: #9a9a9a;}
+.nomargin{margin:0px !important;}
+a:hover{text-decoration:none}
+.navbar-toggle{float: left;border:0px;z-index:999;}
+.navbar-toggle .icon-bar{background:#fff;}
+.navbar{background:#cb293e;overflow:hidden;}
+#mainwrapper{height:100%;}
+.bg-social{background: #e1e1e1;padding:15px;margin-top:10px;}
+.bg-social i{font-size:1.5em;}
+.bg-social .text-left{font-size:14px;padding:15px;}
+.btn-primary{background-color:#a80101;border-color:#850000;text-transform:uppercase;font-family:'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;}
+
+/* ~~~~~ Nav Menu Appearance ~~~~~ */
+.navmenu{background:#2d102c URL("../images/nav-shadow.png") repeat-y top right;border:0px;z-index: 0;font-family:'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif; text-transform:uppercase;font-size:18px;overflow-x:scroll;height:inherit;-ms-overflow-style: none !important; }
+.navmenu-default .navmenu-nav > li > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > a{color:#fff;}
+.navmenu .header{background:#530030;color:#fff;font-size:14px;padding:5px 15px;border:0px;}
+.navmenu span{color: #2d102c;font-size: 12px;float:right;padding:5px 0px;}
+.navmenu a:hover{background-color:#530030 !important;color:#fff !important}
+.navmenu .active a{background-color:#820233 !important;color:#fff !important;}
+.navmenu li{border-top:1px solid #3b133a;border-bottom:1px solid #1f0a1e;}
+
+.navmenu-brand{height:130px;background-color:#2d102c;}
+.navmenu-brand .col-xs-4{background-size:100% !important;height:100%;padding:83px 0px 0px 0px;text-align:center;color:#a4a4a4;border-right:1px solid #3b133a;font-size:15px;}
+.navmenu-brand .icon-askdoctor{background:url('../images/icon-askdoctor.png') no-repeat center center;}
+.navmenu-brand .icon-myreports{background:url('../images/icon-myreports.png') no-repeat center center;}
+.navmenu-brand .icon-services{background:url('../images/icon-services.png') no-repeat center center;border-right:0px;}
+
+.userbar{min-height:60px;background:#2d102c;border-bottom:1px solid #3b133a/*1c2025*/;padding:10px;font-family:'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;}
+.userbar .logo-icon{padding:0px}
+.userbar .user-info{padding:0px;text-align:left;}
+.userbar .user-info div{text-transform:capitalize;color:#fff;font-size:15px;margin-bottom:-10px;}
+.userbar .user-info small{font-size:11px;color:#a4a4a4;font-weight:bold;}
+.userbar .userprofile-icon{font-size:0.7em;padding:5px 0px 0px 0px;}
+.userbar .userprofile-icon .icon-user:before{color:#fff;margin-left:0px}
+
+.caticons li a{/*background:transparent url('../images/icon-categories.png') no-repeat 10px 8px;*/background-size:9% !important;padding-left:50px;}
+.caticons .cat-diseases a{/*background-position:10px 8px;*/background:transparent url('../images/icon-diseases.png') no-repeat 10px center;}
+.caticons .cat-drugs a{/*background-position:10px -115px;*/background:transparent url('../images/icon-drugs.png') no-repeat 10px center;}
+.caticons .cat-news a{/*background-position:10px -175px;*/background:transparent url('../images/icon-news.png') no-repeat 10px center;}
+.caticons .cat-mens a{/*background-position:10px -294px;*/background:transparent url('../images/icon-menshealth.png') no-repeat 10px center;}
+.caticons .cat-womens a{/*background-position:10px -234px;*/background:transparent url('../images/icon-womenshealth.png') no-repeat 10px center;}
+.caticons .cat-kids a{/*background-position:10px -476px;*/background:transparent url('../images/icon-kidscare.png') no-repeat 10px center;}
+.caticons .cat-sexual a{/*background-position:10px -52px;*/background:transparent url('../images/icon-sexuallife.png') no-repeat 10px center;}
+.caticons .cat-bnf a{/*background-position:10px -356px;*/background:transparent url('../images/icon-beautyfitness.png') no-repeat 10px center;}
+.caticons .cat-lifestyle a{/*background-position:10px -417px;*/background:transparent url('../images/icon-lifestyleproblems.png') no-repeat 10px center;}
+.caticons .cat-mental a{/*background-position:10px -537px;*/background:transparent url('../images/icon-mentalhealth.png') no-repeat 10px center;}
+.caticons .cat-qna a{/*background-position:10px -598px;*/background:transparent url('../images/icon-qna.png') no-repeat 10px center;}
+.caticons .cat-videos a{background:transparent url('../images/icon-video.png') no-repeat 10px center;}
+.caticons .cat-slideshows a{background:transparent url('../images/icon-photo.png') no-repeat 10px center;}
+.caticons .cat-pathlab a{background:transparent url('../images/icon-pathlab.png') no-repeat 10px center;}
+.caticons .cat-doctor a{background:transparent url('../images/icon-doctor.png') no-repeat 10px center;}
+.caticons .cat-dietnutrition a{background:transparent url('../images/icon-diet-nutrition.png') no-repeat 10px center;}
+.caticons .cat-freezone {background-color: #000;}
+.caticons .cat-freezone a{color:#fbd7a5;}
+
+
+
+/* ~~~~~ content ~~~~~ */
+.section-header{background:#530030;color:#fff;position:fixed;top:49px;width:100%;padding:0px 10px;z-index:1029;}
+.logo-full{display:block;float:left;height:40px;width:100%;margin:5px 0px 0px 0px;text-align:center;position:absolute;z-index:-1;}
+.logo-full a{background: transparent url('../images/logo-350x45.png') no-repeat center center; display:block;height:inherit;background-size: auto 35px;}
+.header-right-icon{float:right;}
+.header-right-icon .doctor-toggle{padding:2px 0px 0px 0px;}
+.header-right-icon .doctor-toggle .icon-chat:before{color:#fff !important;}
+.body-container{position:relative;padding-top: 87px;z-index:0;}
+
+/* ~~~~~ featured carousel ~~~~~ */
+.carousel{background-color:#000;}
+.carousel-indicators {bottom:0px;}
+.featured-container{position:absolute;width:100%;height:100%;background:url('../images/featured-shadow.png') no-repeat left bottom;left:0;top:0;background-position:50% 50%;}
+.featured-caption{text-align:left;left:2%;width: 70%;bottom:10px;padding-bottom:10px;}
+.block-head{text-transform:uppercase;color:#9a9a9a;font-size:9px;font-weight:bold;}
+.featured-title{font-family:'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 18px;line-height:22px;}
+.featured-more{height:129px !important;}
+.featured-more .row {top:0px !important;}
+/*.featured-more .category-caption{padding:80px 0px 0px 5px;}*/
+.carousel-control{width:5%;color:#fff;text-shadow:0 5px 5px rgba(0, 0, 0, 1);opacity:1;}
+.carousel-control span{top:40% !important;}
+.carousel-control.left{ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0px, rgba(0, 0, 0, 0) 100%);background-repeat: repeat-x;left:0;}
+.carousel-control.right {background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%);background-repeat: repeat-x;left: auto;right: 0;}
+
+.featured-container:before, .featured-container:after, .category-caption:after, .category-caption:before{display:none;}
+
+/* ~~~~~ category panels ~~~~~ */
+.category-block{position:relative;height:175px;margin-top:2px;}
+.category-header{position:absolute;z-index:1;width:100%;background:transparent url('../images/categoryheader-shadow.png') repeat-x left bottom;padding:0px 0px 0px 5px;color:#373b45;}
+.category-block .row{position:absolute;top:34px;z-index:0;margin:0;width:100%;height:128px;overflow-y:hidden;overflow-x:scroll;-webkit-overflow-scrolling: touch;-ms-overflow-style: none !important; }
+.category-block .row-block{width: 1202px;}
+.category-container{width: 170px;float:left;margin-right:2px;position:relative;overflow:hidden;background:transparent url('../images/bg-blocks.png') repeat 0 0;}
+/*.category-caption{position:absolute;bottom:-1px;height:100%;background:transparent url('../images/categorycaption-shadow.png') repeat-x left bottom;padding:80px 0px 0px 5px;width:100%;}*/
+.category-caption{position:absolute;bottom:0px;min-height:80px;background:transparent url('../images/categorycaption-shadow.png') repeat-x left -100px;padding:40px 10px 10px 5px;width:100%;}
+.category-title{font-family:'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 13px;line-height:14px;color:#fff;width:96%;text-transform:capitalize;}
+
+.icon-content-photo{position:absolute;background:transparent URL('../images/icon-photo.png') no-repeat 0 0;background-size: 100% !important;left:2px;top:5px;width:30px;height:30px;}
+.icon-content-video{position:absolute;background:transparent URL('../images/icon-video.png') no-repeat 0 0;background-size: 100% !important;left:2px;top:5px;width:30px;height:30px;}
+
+
+.qna-block{background:#a8b400;} 
+.qna-block .category-header, .tdo-block .category-header {color:#fff;}
+.qna-block .category-caption{position:relative;background:none;height:110px;}
+.qna-block .category-title{position:absolute;top:25%;font-size:14px;line-height:16px;}
+
+.news-block{background:#6ea9a5;height:170px !important;margin-top:-12px;}
+.news-block .category-header a{color:#fff;}
+.news-block .category-header{margin-top:20px;}
+.news-block .row{top:55px;height:140px;}
+.news-block .category-caption{position:relative;background:none;min-height:100px;padding-top:15px;}
+
+.tdo-block{background: #1f1f1f;height:360px !important;padding-top:20px}
+.tdo-block .category-header a{color:#fff;}
+.tdo-block .row{height:300px !important;top:55px;}
+.tdo-block .category-container{width:180px;background-image:none;}
+.tdo-block .category-caption{position:relative;background:none;padding-top:10px;min-height:50px;}
+.tdo-block .category-title{font-size:16px;line-height:18px;margin-bottom:-3px;}
+.tdo-block .block-head{font-size:10px}
+.tdo-block .btn{margin:10px 0px 0px 20px;padding:5px 10px;font-size:16px;}
+
+.subcategorypage .col-xs-6{background: url('../images/bg-blocks.png') repeat 0 0;padding:0px;}
+/*.subcategorypage .category-caption{width:100%; min-height:110px; height:auto; padding:45px 10px 10px 5px; bottom:0px;background-position:0px -88px;}*/
+/*.subcategorypage .subcategory-block .category-caption{padding-top:60px;}*/
+.subcategorypage .category-title{font-size:14px;line-height:16px;}
+.subcategorypage .body-container{z-index: 0px;}
+
+
+.body-container .bg-warning,.body-container .bg-info,.body-container .bg-success,.body-container .bg-danger {padding:15px;}
+.articlepage .carousel-inner > .item {min-height:170px;}
+.articlepage .featured-container{background:url('../images/categorycaption-shadow.png') repeat-x left bottom;}
+.articlepage .featured-caption{width:80%;}
+.articlepage small{font-size: 12px;color:#aaaaaa;font-weight:bold;line-height:13px;}
+.articlepage .container{width:100%; overflow:hidden;}
+.articlepage .body-container .bg-warning {margin:0px}
+.articlepage .container-content {margin-top:15px;padding-bottom: 40px;}
+
+.slideshowpage #slider{background: #FCF8E3;}
+.slideshowpage .bg-social{margin-top:0px;}
+/*.slideshowcatpage .category-caption{padding-top:60px !important;}*/
+.slideshowpage .carousel-control span{top: 25% !important; }
+
+.questiondetail .featured-caption{width:92%;}
+.questiondetail .carousel-inner, .questiondetail .carousel-inner .item {min-height: 130px;}
+
+.freezonepage .carousel{background:#fff;}
+.freezonepage .carousel .item {margin-bottom:1px;background:#850000}
+
+
+#navbar-diseases{background:#1e2128;position:fixed;top:88px;width:100%;height:59px;overflow-y:hidden;overflow-x:scroll;z-index:2;}
+.diseasesul {padding:0px;width:1364px;font-family:'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;text-transform:uppercase;}
+.diseasesul li{float:left;list-style-type:none;padding:15px 20px;border-right:1px solid #464a53;margin:0px;}
+.diseasesul li:hover{cursor:pointer}
+.diseasesul .active, .diseasesul .active:focus{background:#fff;border-bottom:2px solid #fff;} 
+.diseasesul .active a, .diseasesul .active:focus a{color:#363a44;}
+.diseasesul a{color:#fff;padding:0px !important;}
+
+.diseasespage .body-container{padding-top:147px;}
+.diseasespage .body-container .diseaseslist{display:block; height:500px;overflow-x:scroll;}
+.diseasespage .body-container .diseaseslist ul{list-style-type:none;font-size:16px;padding:0px;}
+.diseasespage .body-container .diseaseslist li{border-bottom:1px solid #e5e5e5;padding:12px 10px;}
+.diseasespage .body-container .diseaseslist li a{color: #606060;}
+.diseasespage .body-container .diseaseslist li.first{border-bottom:0px;}
+.diseasespage .body-container .diseaseslist strong{font-size: 28px;color:#000;border:0px;}
+
+
+.doctorlanding .doctornav{background:#2d102c;}
+.doctorlanding .form-control{width:100%;}
+.doctorlanding .navbar-form{border:0px;box-shadow:none;}
+
+.doctorlanding .doctor-panel tr{height: 100px;}
+.doctorlanding .doctor-panel h5{margin:10px 0px 5px 0px;font-size:18px;}
+.doctorlanding .doctor-panel small{display:inline-block;font-size:14px;line-height:16px;color:#9a9a9a;}
+.doctorlanding .doctor-panel .col-xs-8{padding:5px;} .doctorlanding .doctor-panel .col-xs-1{padding:15px 10px 0px 0px;} .doctorlanding .doctor-panel .col-xs-3{padding-left:0px;}
+.doctorlanding .doctor-panel .btn-link span{color: #cb293e}
+.doctorlanding form li a{padding-left: 7px;}
+
+.doctorsprofile .carousel{}
+.doctorsprofile .carousel-inner{}
+.doctorsprofile .featured-caption{width:100%;bottom:0px;}
+.doctorsprofile .profilepic{height:150px;float:left;margin-right:12px}
+.doctorsprofile .featured-title{font-size:24px;margin:52px 0px 0px 0px;}
+.doctorsprofile .doctortabs{border-top:1px solid #e5e5e5;font-family:'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:18px;text-transform:uppercase;}
+.doctorsprofile .doctortabs li{width:50%;background:#e9e9e9;text-align:center;}
+.doctorsprofile .doctortabs .active{background:#fff;border:0px;}
+.doctorsprofile .doctortabs li a, .doctorsprofile .doctortabs li a:hover{border:0px;color:#000;}
+.doctorsprofile .tab-pane{padding:2px 0px 20px 0px;}
+.doctorsprofile .body-container .container{padding-top:10px}
+
+.newslanding .table td{padding:15px 0px;}
+.newslanding .table .category-title{color:#000;font-size:16px;line-height:20px;}
+.newslanding .table small{color:#9a9a9a;}
+.newslanding .table .col-xs-12{padding:5px 10px;}  .newslanding .table .col-xs-3{padding-left:0px;padding-right:10px;display: none;}
+
+
+.chatpage .body-container{padding-bottom:120px;}
+.chatpage #screen{margin:0px;}
+.chatpage .section-header .glyphicon{color:#fff;font-size:20px;padding:9px 0px 0px 0px;}
+td.inverse{background:#F9F9F9;}
+.chat-box .container{background:#fff url('../images/categoryheader-shadow.png') repeat-x left top;padding:10px 15px;}
+.chat-box input{border:0px;box-shadow:none;}
+.chat-box .btn{border-bottom-left-radius:4px;border-top-left-radius:4px;}
+.chat-box .navbar-inverse{/*padding:15px 10px 10px 10px;*/color:#fff}
+.chat-box .col-xs-9 {border-right:1px solid #424242;padding:15px;width:55%;}
+.chat-box .col-xs-1 {width: 15%;border-right:1px solid #424242;border-left:1px solid #000;padding:12px 0px 12px 20px;}
+.chat-box .col-xs-1 [class^="icon-"]:before, [class*=" icon-"]:before{color:#fff;font-size:26px;}
+
+.page-container{padding:40px 10px 10px 10px; position:fixed;width:100%;border-bottom:1px solid #E5E5E5;background:#fff;background:#feffeb;z-index:1;}
+.page-container .title{font-size:26px;color:#000;}
+.page-container em{display:block;margin:0px 0px 10px 0px;color:#bd5532;}
+.txttabs{border:0px;}
+.txttabs li{margin-right:0px;}
+.txttabs li a{border:0px !important;padding:0px;display:inline;}
+.txttabs li.active a,.txttabs li:hover a {background:none;color:#1f9e88;}
+.txttabs>li:after{content:"/\00a0";padding:0 3px;}
+
+.a2zinside .container{margin-top:130px;}
+.a2zinside .tab-content strong.header{font-size:12px;text-transform:uppercase;color:#000;display:block;margin:40px 0px 5px 0px;}
+
+
+footer {padding: 10px;font-size:12px;background:#eee url("../images/categoryheader-shadow.png") repeat-x scroll left top;}
+footer hr{margin:5px 0px;border-color:#fff;}
+footer kbd{font-size:14px; font-weight:bold;text-transform:uppercase;}
+footer .list-unstyled li{margin-bottom:10px;}
+footer .lead{color:#000;}
+
+/* Slider */
+#slider {min-height: 250px;}
+
+.swipe {overflow: hidden;position: relative;width: 100%;}
+.swipe img {width: 100%;height: 250px;}
+.swipe-wrap {overflow: hidden;position: relative;}
+.swipe-wrap > div {float: left;width: 100%;position: relative;}
+.swipe .nav {position: absolute;height: 38px;z-index: 10;text-align: center;line-height: 40px;display: inline-block;color: #fff;top: 45%;cursor: pointer;}
+
+
+.msisdnpage .body-container{padding-top:49px;font-size:13px;line-height:16px;}
+
+.custommodal .modal-sm {width:300px;margin:50px auto;}
+.custommodal .modal-content .modal-header {padding-bottom:5px;}
+.custommodal .modal-content .modal-header p, .custommodal .modal-content .col-xs5, .custommodal .modal-content .col-xs-7{padding:0px;}
+.custommodal .modal-content p.text{font-size:13px;line-height:18px;display:block;color:#606060;margin-top:10px;}
+.custommodal .modal-content .modal-body{padding:5px 15px 10px 15px;}
+.custommodal .modal-content .modalpricing{margin-top:30px;}
+.custommodal .modal-content .modalpricing h5{margin:0px;font-size:32px;}
+.modal-backdrop, .modal-backdrop.fade.in{opacity: .9;}
+
+.userprofile .container{margin-top:8px;}
+.userprofile .featured-title{margin-bottom:5px;}
+
+#freezone-slider{background:#412339;border-radius:0px;padding:10px;margin-bottom:0px;}
+#freezone-slider .carousel{background:none;}
+#freezone-slider .fz-header div{color:#fecb00;margin:20px 0px;}
+#freezone-slider .fz-header button{color:#fff;opacity:0.6;right:0px;}
+#freezone-slider .fz-body{padding-bottom:10px;}
+#freezone-slider .fz-body .col-xs-6, #freezone-slider .fz-body .col-xs-5, #freezone-slider .fz-body .col-xs-7{padding:0px;}
+#freezone-slider .fz-body .col-xs-5{max-width:100px;}
+#freezone-slider .fz-body .fz-heading{color:#fff;font-size:14px;line-height:16px;}
+#freezone-slider .fz-body small{color:#c79900;text-transform:uppercase;font-size:10px;}
+#freezone-slider .fz-body img{border:2px solid #000;}
+#freezone-slider .carousel-indicators{position:relative;margin:0px auto; left:auto;margin:7px auto 0px auto;}
+#freezone-slider .carousel-indicators li{height:8px;width:8px;margin:0px;}
+
+.nonsubpage .col-xs-6, .col-xs-4{padding:0px;}
+.nonsubpage .body-container{padding-top:49px}
+.nonsubpage .bg-danger{background-color:#530030;color:#ccc;}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Media Queries ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (min-width: 0){
+	.navbar-toggle {display: block; /* force showing the toggle */}
+}
+
+/*small smartphones*/
+@media (max-width:320px) { 
+	/*.logo-full{width: 60%;}*/
+	.logo-full a{background-size: auto 28px;}
+	.featured-caption{bottom:5px;padding-bottom:5px;width:90%;}
+    .category-container {width:135px;}
+	.category-block .row{height:110px;}
+	.featured-more{margin-bottom:4px;}
+    /*(.featured-more .category-caption, .category-caption{padding-top:60px;}*/
+    /*.subcategorypage .category-caption{padding-top:75px; }*/
+	/*.slideshowcatpage .category-caption{padding-top:55px !important;}*/
+	.category-block{height:155px;}
+	
+}
+
+/*Samsung note 1 + sony zl =portrait*/
+@media (min-width:321px) and (max-width:480px) {
+	.logo-full a{background-size: auto 28px;} 
+	/*.subcategorypage .category-caption{padding-top:90px; }*/
+	/*.slideshowcatpage .category-caption{padding-top:70px !important; }*/
+	/*.subcategorypage .subcategory-block .category-caption{padding-top:80px;}*/
+	.featured-more{margin-bottom:12px;}
+
+}
+
+
+
+/*medium smartphones & landscapes *//*HTC landscape*/
+@media (min-width: 481px) and (max-width: 599px){ 
+    .caticons li a{background-size: 7% auto !important;}
+    .featured-container{background-position:left bottom;}
+	
+    .featured-caption {bottom:20px;}
+    .featured-title{font-size: 24px;}
+    .swipe img {width: 100%;height: auto;}
+/*    .featured-more .category-caption, .category-caption{padding-top:90px;}*/
+    /*.subcategorypage .category-caption{padding-top:175px; }*/
+	/*.slideshowcatpage .category-caption{padding-top:155px !important;}*/
+	
+	
+    
+}
+
+/*big smartphones & tablets portrait */
+@media (min-width: 600px) and (max-width: 991px){ 
+    .featured-container{background-position:left bottom;}
+    .featured-caption {bottom:20px;}
+    .featured-title{font-size: 24px;}
+	
+    .swipe img {width: 100%;height: 350px;}
+    /*.subcategorypage .category-caption{padding-top:175px;}*/
+	/*.slideshowcatpage .category-caption{padding-top:70px !important;}*/
+	.category-block{height:170px;}
+	
+}
+
+
+
+/* landscape tablets + desktops*/
+@media (min-width: 992px) {
+	/*.navbar {right: auto; background: none; border: none;}*/
+  	/*.logo-full{width: 80%;}*/
+    .swipe img {height: auto;}
+  	.featured-container{background-position:left bottom;}
+    .featured-caption {bottom:20px;}
+  
+	
+	
+}
+
+/*Only Portraits*/
+
+/*All Landscapes*/
+
+@media (max-width:480px) and (orientation:landscape){
+/*.subcategorypage .category-caption{padding-top:140px;}*/
+/*.slideshowcatpage .category-caption{padding-top:116px !important;}*/
+.caticons li a{background-size:7% auto !important;}
+}
+
+@media (min-width:481px) and (max-width:599px) and (orientation:landscape){ /*HTC 1*/
+/*.subcategorypage .category-caption{padding-top:140px;}*/
+/*.slideshowcatpage .category-caption{padding-top:130px !important;}*/
+/*.logo-full{width: 80%;}*/
+.subcategorypage .category-title {font-size:18px;line-height:20px;}
+.caticons li a{background-size:7% auto !important;}
+}
+
+@media (min-width: 600px) and (max-width: 800px) and (orientation:landscape){ 
+ /*.subcategorypage .category-caption{padding-top:200px;}*/
+ /*.slideshowcatpage .category-caption{padding-top:176px !important;}*/
+ .subcategorypage .category-title {font-size:18px;line-height:20px;}
+ .caticons li a{background-size:5% auto !important;}
+
+}
+
+@media (min-width: 1002px) and (orientation:landscape){ /*NK Lumia 920*/
+	/*.subcategorypage .category-caption{padding-top:200px; }*/
+	/*.slideshowcatpage .category-caption{padding-top:165px !important;}*/
+	.subcategorypage .category-title {font-size:18px;line-height:20px;}
+	.caticons li a{background-size:6% auto !important;}
+}

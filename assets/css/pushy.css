@@ -1,0 +1,24 @@
+/*! Pushy - v0.9.1 - 2013-9-16 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions. * https://github.com/christophery/pushy/ */
+/* ~~~~~ Menu Appearance ~~~~~ */
+.pushy{position:fixed;width:80%;top: 0;left:-18%;-webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */}
+.pushy-active .pushy{display:block;left:0;}
+
+/* ~~~~~ Menu Movement ~~~~~ */
+.pushy-left{ -webkit-transform: translate3d(-80%,0,0); -moz-transform: translate3d(-80%,0,0); -ms-transform: translate3d(-80%,0,0); -o-transform: translate3d(-80%,0,0); transform: translate3d(-80%,0,0);}
+
+.pushy-open{ -webkit-transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
+
+/*.container-push,*/ .push-push{ -webkit-transform: translate3d(80%,0,0); -moz-transform: translate3d(80%,0,0); -ms-transform: translate3d(80%,0,0); -o-transform: translate3d(80%,0,0); transform: translate3d(80%,0,0); } 
+
+.pushy-active #navbar-diseases, .pushy-active .navbar, .pushy-active .section-header, .pushy-active .body-container, .pushy-active .chat-box, .pushy-active .page-container, .pushy-active .push-push{ /*-webkit-transform: translate3d(80%,0,0); -moz-transform: translate3d(80%,0,0); -ms-transform: translate3d(80%,0,0); -o-transform: translate3d(80%,0,0); transform: translate3d(80%,0,0);*/left:80%; }
+
+.pushy-active #mainwrapper{overflow:hidden;}
+
+/* ~~~~~ Menu Transitions ~~~~~ */
+.pushy,/* #mainwrapper,*/ .push{ -webkit-transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99); -moz-transition: -moz-transform .2s cubic-bezier(.16, .68, .43, .99); -o-transition: -o-transform .2s cubic-bezier(.16, .68, .43, .99); transition: transform .2s cubic-bezier(.16, .68, .43, .99); /* improves performance issues on mobile*/ -webkit-backface-visibility: hidden; -webkit-perspective: 1000;}
+
+/* ~~~~~ Site Overlay ~~~~~ */
+.site-overlay{display: none;}
+.pushy-active .site-overlay{display: block; position: fixed; top: 0; right: 0; bottom: 0; left: 80%; z-index: 9999;}
+.pushy-active .logo-full, .pushy-active .header-right-icon, .pushy-active .chat-box .col-xs-1{display:none;}
+.pushy-active .chat-box .col-xs-9 {width: 200px;}
